@@ -1,4 +1,6 @@
+# START:class
 class PeopleController < ApplicationController
+# END:class
   # GET /people
   # GET /people.xml
   def index
@@ -80,4 +82,6 @@ class PeopleController < ApplicationController
       format.xml  { head :ok }
     end
   end
+# START:class
 end
+# END:class
